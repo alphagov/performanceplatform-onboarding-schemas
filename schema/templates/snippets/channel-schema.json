@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "channel": {
+            "description": "user contact channel",
+            "type": "string"
+        }
+    }
+}
