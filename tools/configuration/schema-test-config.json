@@ -1,0 +1,128 @@
+[
+    {
+        "description": "Invalid empty json - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/empty.json",
+        "assertion": false
+    },
+    {
+        "description": "Valid event-base - Expected PASS",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base.json",
+        "assertion": true
+    },
+    {
+        "description": "Invalid event-base: no _id - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base-no-id.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid event-base: bad _id - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base-bad-id.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid event-base: no _timestamp - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base-no-timestamp.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid event-base: bad _timestamp - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base-bad-timestamp.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid event-base: unexpected field - Expected FAIL",
+        "schema": "../../schema/templates/event-base-schema.json",
+        "instance": "../fixtures/event-base-unexpected-field.json",
+        "assertion": false
+    },
+    {
+        "description": "Valid aggregate-base - Expected PASS",
+        "schema": "../../schema/templates/aggregate-base-schema.json",
+        "instance": "../fixtures/aggregate-base.json",
+        "assertion": true
+    },
+    {
+        "description": "Invalid aggregate-base: no period - Expected FAIL",
+        "schema": "../../schema/templates/aggregate-base-schema.json",
+        "instance": "../fixtures/aggregate-base-no-period.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid aggregate-base: bad period - Expected FAIL",
+        "schema": "../../schema/templates/aggregate-base-schema.json",
+        "instance": "../fixtures/aggregate-base-bad-period.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid aggregate-base: bad period enum - Expected FAIL",
+        "schema": "../../schema/templates/aggregate-base-schema.json",
+        "instance": "../fixtures/aggregate-base-bad-period-enum.json",
+        "assertion": false
+    },
+    {
+        "description": "Invalid aggregate-base: unexpected field - Expected FAIL",
+        "schema": "../../schema/templates/aggregate-base-schema.json",
+        "instance": "../fixtures/aggregate-base-unexpected-field.json",
+        "assertion": false
+    },
+    {
+        "description": "Valid application-state-volumes - Expected PASS",
+        "schema": "../../schema/common/application-volumes/application-state-volumes-schema.json",
+        "instance": "../fixtures/application-state-volumes.json",
+        "assertion": true
+    },
+    {
+        "description": "Valid application-stage-volumes - Expected PASS",
+        "schema": "../../schema/common/application-volumes/application-stage-volumes-schema.json",
+        "instance": "../fixtures/application-stage-volumes.json",
+        "assertion": true
+    },
+    {
+        "description": "Valid transactions-by-channel - Expected PASS",
+        "schema": "../../schema/common/transactions-by-channel/transactions-by-channel-schema.json",
+        "instance": "../fixtures/transactions-by-channel.json",
+        "assertion": true
+    },
+    {
+        "description": "Valid transactions-by-channel-type - Expected PASS",
+        "schema": "../../schema/common/transactions-by-channel/transactions-by-channel-type-schema.json",
+        "instance": "../fixtures/transactions-by-channel-type.json",
+        "assertion": true
+    },
+    {
+        "description": "user-satisfaction-multi-question: responses - Expected PASS",
+        "schema": "../../schema/common/user-satisfaction/user-satisfaction-multi-question-schema.json",
+        "instance": "../fixtures/user-satisfaction-multi-question-responses.json",
+        "assertion": true
+    },
+    {
+        "description": "user-satisfaction-multi-question: comment only - Expected PASS",
+        "schema": "../../schema/common/user-satisfaction/user-satisfaction-multi-question-schema.json",
+        "instance": "../fixtures/user-satisfaction-multi-question-comment-only.json",
+        "assertion": true
+    },
+    {
+        "description": "consulate-appointments-transactions-by-channel - Expected PASS",
+        "schema": "../../schema/consular-appointments/consulate-appointments-transactions-by-channel-schema.json",
+        "instance": "../fixtures/consulate-appointments-transactions-by-channel.json",
+        "assertion": true
+    },
+    {
+        "description": "consulate-service-utilisation - Expected PASS",
+        "schema": "../../schema/consular-appointments/consulate-service-utilisation-schema.json",
+        "instance": "../fixtures/consulate-service-utilisation.json",
+        "assertion": true
+    },
+    {
+        "description": "queens-award-for-enterprise-applications-by-stage - Expected PASS",
+        "schema": "../../schema/queens-award-for-enterprise/queens-award-for-enterprise-applications-by-stage-schema.json",
+        "instance": "../fixtures/queens-award-for-enterprise-applications-by-stage.json",
+        "assertion": true
+    }
+]

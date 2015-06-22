@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "channel_type": {
+            "description": "class of channel for Dbd categrisation",
+            "enum": [
+                "digital",
+                "non-digital",
+                "assisted-digital"
+            ]
+        }
+    }
+}

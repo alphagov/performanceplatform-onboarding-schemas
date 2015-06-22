@@ -1,0 +1,8 @@
+{
+  "_id": "url-friendly Base64 encoding of '<_timestamp>.<period>.<question>'",
+  "_timestamp": "2014-12-01T00:00:00+00:00",
+  "period": "week",
+  "question": "comments",
+  "respondents": 2,
+  "total_respondents": 5
+}
