@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "id": "/common/user-satisfaction-multi-question-schema",
+    "id": "/common/user-satisfaction/user-satisfaction-multi-question-schema",
     "title": "user-satisfaction-multi-question",
     "description": "perfromance platform schema for: user-satisfaction multiple quantitative based question plus comment records. Quantitative question rated 1 to 5, 1 being the lowest, 5 being the highest. the comment is the last question. Schema shows 6 questions plus one comments question (question 7)",
     "type": "object",

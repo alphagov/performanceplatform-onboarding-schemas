@@ -108,6 +108,18 @@
         "assertion": true
     },
     {
+        "description": "customer-satisfaction - Expected PASS",
+        "schema": "../../schema/common/user-satisfaction/customer-satisfaction-schema.json",
+        "instance": "../fixtures/customer-satisfaction.json",
+        "assertion": true
+    },
+    {
+        "description": "calculated-user-satisfaction - Expected PASS",
+        "schema": "../../schema/common/user-satisfaction/calculated-user-satisfaction-schema.json",
+        "instance": "../fixtures/calculated-user-satisfaction.json",
+        "assertion": true
+    },
+    {
         "description": "consulate-appointments-transactions-by-channel - Expected PASS",
         "schema": "../../schema/consular-appointments/consulate-appointments-transactions-by-channel-schema.json",
         "instance": "../fixtures/consulate-appointments-transactions-by-channel.json",
